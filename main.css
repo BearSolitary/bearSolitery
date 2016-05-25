@@ -66,6 +66,8 @@ img{
 	position: absolute;
 	bottom: 0;
 	margin-bottom: 20px;
+	border-top: 2px solid #2196f3;
+	border-bottom: 2px solid #2196f3;
 	
 	background-color: aquamarine;
 }
@@ -84,3 +86,5 @@ img{
 	
 	color: darkslategray;
 }
+
+
