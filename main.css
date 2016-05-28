@@ -91,42 +91,28 @@ img{
 
 
 
-#nav {
-	width:100%;
-	height:400px;
-	background: black;
-	
-}
-
-#nav_wrapper{
-	height: 100px;
-	width: 700px;
-	background-color: navajowhite;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top: none;
-	opacity: 0.7;
-	filter: alpha (opacity=60);
-	
+nav {
+	height:42px;
+	background-color: coral;
 }
 
 
-#nav_wrapper ul li{
-	list-style: none;
-	display: inline;
-	font-weight: bold;
-	padding: 10px;
+nav ul{
+	list-style:none;
 }
 
-#nav_wrapper a{
-	color:white;
+nav ul li a{
+	float:left;
 	text-decoration:none;
-	padding: 10px;
-	
+	color:antiquewhite;
+	padding:0px 40px;
+	text-align: center;
+	line-height:42px;
+	height:42px;
 }
 
-#nav_wrapper ul li: hover{
-	background: black;
-	transition: all 0.45s;
+nav ul li a:hover{
+	background-color: lightcoral;
+	color: white;
 	
 }
